@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Jeux" transform="matrix(0.375,0,0,0.375,-14,0)">
+        <g id="Pixel-Art---Kada-bura.png" serif:id="Pixel Art — Kada✩bura.png">
+        </g>
+        <rect x="0" y="0" width="862" height="800" style="fill:rgb(255,218,218);"/>
+        <g transform="matrix(1,0,0,1,104,0)">
+            <path d="M223,0C223,0 115,146.833 126,230C137,313.167 234.5,374.167 230,449C225.5,523.833 174.912,635.538 187,687C206.856,771.532 252,800 252,800L0,800L0,0L223,0Z" style="fill:rgb(255,247,227);"/>
+        </g>
+        <path d="M223,0C223,0 115,146.833 126,230C137,313.167 234.5,374.167 230,449C225.5,523.833 174.912,635.538 187,687C206.856,771.532 252,800 252,800L0,800L0,0L223,0Z" style="fill:white;"/>
+        <g transform="matrix(0.598471,0,0,0.583186,137.216,436.816)">
+            <text x="0px" y="0px" style="font-family:'BaskOldFace', 'Baskerville Old Face', serif;font-size:173.776px;">JEUX VIDÉO</text>
+        </g>
+    </g>
+</svg>

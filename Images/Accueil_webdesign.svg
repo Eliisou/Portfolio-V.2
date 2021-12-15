@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="WebDesign" transform="matrix(0.352778,0,0,0.352778,3.97707e-14,-17.5)">
+        <g transform="matrix(1,0,0,1,-1.13687e-13,-300)">
+            <rect x="0" y="0" width="1800" height="1200" style="fill:rgb(255,160,160);"/>
+        </g>
+        <g id="web-design.png" serif:id="web design.png">
+        </g>
+        <g transform="matrix(1,0,0,1,-722,-300)">
+            <path d="M1084,0C1084,0 967.833,183.333 969,272C970.167,360.667 1087.83,481.667 1100,581C1112.17,680.333 1020.67,782.667 1022,894C1023.33,1005.33 1132,1200 1132,1200L1462,1200C1462,1200 1333.83,1004.33 1330,893C1326.17,781.667 1432,672.833 1420,563C1408,453.167 1259.33,322.667 1258,234C1256.67,145.333 1400,0 1400,0" style="fill:rgb(255,184,184);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-926,-300)">
+            <path d="M1084,0C1084,0 967.833,183.333 969,272C970.167,360.667 1087.83,481.667 1100,581C1112.17,680.333 1020.67,782.667 1022,894C1023.33,1005.33 1132,1200 1132,1200L1462,1200C1462,1200 1333.83,1004.33 1330,893C1326.17,781.667 1432,672.833 1420,563C1408,453.167 1259.33,322.667 1258,234C1256.67,145.333 1400,0 1400,0" style="fill:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,5,57)">
+            <g transform="matrix(0.92742,0,0,0.92742,70.0551,472.661)">
+                <text x="0px" y="-0px" style="font-family:'BaskOldFace', 'Baskerville Old Face', serif;font-size:119.203px;">WEB DESIGN</text>
+            </g>
+        </g>
+    </g>
+</svg>
