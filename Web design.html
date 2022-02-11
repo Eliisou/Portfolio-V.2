@@ -5,105 +5,140 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link href="styleV.2.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
         <title>GRAPHIC DESIGN PORTFOLIO</title>
     </head>
 
     <body>
-        <header>
-            <div class="navbar-left">
-              
-              <div class="logo">
-                <img src="Images/logo.svg" alt="logo" />
-                <span>Elisa Braun</span>
-              </div>
-      
-              <div class="nav-text">
-                <div class="bug1-regled">
-                  <a href="index.html">Accueil</a>
-                </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav" id="navbartop">
+        <div class="container-fluid mx-sm-5">
+          <a class="navbar-brand d-flex align-items-center pe-sm-5" href="#">
+            <img src="Images/logo.svg" alt="logo" width="70" height="70" class="d-inline-block align-text-top">
+            <img src="Images/elisabraun.png" alt="logo name" class="w-150">
+          </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly">
+              <li class="nav-item px-5">
+                <a class="text_box nav-link active" aria-current="page" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item px-5">
+                <a class="text_box nav-link" href="index.html#about-me">À propos de moi</a>
+              </li>
+              <li class="nav-item px-5">
+                <div class="dropdown">
+                  <a class="text_box nav-link" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Créations
+                  </a>
                 
-                <div class="bug2-regled">
-                  <a href="index.html#about-me">A propos de moi</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="Web design.html">Web Design</a></li>
+                    <li><a class="dropdown-item" href="Modelisation.html">Modélisation</a></li>
+                    <li><a class="dropdown-item" href="JeuxUnity.html">Jeux Vidéo</a></li>
+                    <li><a class="dropdown-item" href="Illustration.html">Illustration</a></li>
+                  </ul>
                 </div>
-                
-                <div class="menu-deroulant">
-                  <div class="bug3-regled">
-                    <a href="">Créations</a>
-                    <div class="sous-menu">
-                      <a href="Web design.html">Web Design</a>
-                      <a href="Modelisation.html">Modélisation</a>
-                      <a href="JeuxUnity.html">Jeux</a>
-                      <a href="Illustration.html">Illustration</a>
-                    </div>
-                  </div>
-                  
-                </div>
-
-            </div>
-            </div>
-
+              </li>
+            </ul>
             <div class="navbar-right">
-                <a href="https://www.instagram.com/elix_draw/"><img src="Images/insta.png" title="Instagram" alt="insta" /></a>
-                <a href="https://www.linkedin.com/in/elisa-braun/"><img src="Images/ln.png" title="Linkedin" alt="linkedin" /></a>
-                <a href="https://github.com/Eliisou"><img src="Images/git.png" title="Github" alt="Git" /></a>
-      
-            </div>
-
-        </header>
-        <content>
-            
-                <div class="banniere">
-                    <img src="Images/webdesign.svg" class="img-webdesign"/>
-                </div>
-            
-            <div class="contenu-global">
-                <div class="contenu-gauche">
-                    <img src="Images/maquette.svg" class="img-maquette"/>
-                </div>
-                <div class="contenu-droit">
-                    <img src="Images/maquettesex.svg" class="img-maquettesex"/>
-                </div>
-            </div>
-
-            <div class="contenu-global bg-primaryperso pt-5">
-                <div class="contenu-gauche">
-                    <img src="Images/scanhealth.svg" class="img-maquettesex"/>
-                </div>
-                <div class="contenu-droit">
-                    <img src="Images/application.svg" class="img-maquettesex"/>
-                </div>
-            </div>
-
-            <div class="contenu-global pt-5">
-                <div class="contenu-gauche">
-                    <img src="Images/sites.svg" class="img-maquette"/>
-                </div>
-                <div class="contenu-droit">
-                    <img src="Images/WalterOne.png" class="website_img"/>
-                    <img src="Images/Payconvert.PNG" class="website_img"/>
-
-                </div>
-            </div>
-            
-        
-            
-            
-        </content>
-        <footer>
-            <div class= "footer-class">
-              <img src="Images/footer.png"/>
-              <div class="text-footer">
-                <p>
-                  Merci à vous d'avoir regardé mon portfolio, celui ci a été réalisé en HTML et CSS. Il sera mis à jour à chaque nouveau projet et est amené à évoluer dans son ensemble.
-                  N'hésitez pas à aller voir mes activités sur mes réseaux. Si vous souhaitez me contacter, vous pouvez m'envoyer un mail via cette adresse: elisabraun21@gmail.com ou via mes réseaux.
-                </p>
-              </div>
-              
+              <a href="https://www.instagram.com/elix_draw/" target="_blank"><img src="Images/insta.png" title="Instagram" alt="insta" /></a>
+              <a href="https://www.linkedin.com/in/elisa-braun/" target="_blank"><img src="Images/ln.png" title="Linkedin" alt="linkedin" /></a>
+              <a href="https://github.com/Eliisou" target="_blank"><img src="Images/git.png" title="Github" alt="Git" /></a>
+    
           </div>
-            
-          </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    </body>
+          </div>
+          
+        </div>
+      </nav>
 
+      <div class="container-fluid police">
+
+        <div class="mb-10 px-0 d-flex justify-content-center align-items-center">
+          <img src="Images/webdesign.svg"/>
+        </div> 
+        
+        <div class="row d-flex align-items-center flex-column flex-sm-row my-5">
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 my-3 py-sm-5">
+            
+            <div class="bg-white d-flex justify-content-center flex-column mx-sm-5">
+              <p class="d-flex justify-content-center m-3">Maquettes</p>
+              <p class="d-flex justify-content-center m-5">Pure et SpaceX sont deux maquettes de sites web fictifs réalisées sur le logiciel Affinity Designer.
+                Pure est un site de présentation d'un spa et SpaceX est un site de presentation et de vente de plantes en ligne</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 police">
+            <img src="Images/maquettesex.svg" class="img-fluid w-1000">
+          </div>
+
+        </div>
+
+        <div class="bg-salmon row d-flex align-items-center flex-column flex-sm-row my-5">
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 my-3 my-sm-0 flex-column">
+            <img src="Images/Payconvert.PNG" class="img-fluid w-550 my-2 mt-5 px-sm-5">
+            <img src="Images/Payconvert2.PNG" class="img-fluid w-550 my-2 px-sm-5">
+            <img src="Images/Payconvert3.PNG" class="img-fluid w-550 my-2 mb-5 px-sm-5">
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-5 col-lg-6 col-xl-7 col-xxl-7 police">
+            <div class="bg-white d-flex justify-content-center flex-column mx-xl-5 mt-sm-5 mb-3">
+              <p class="d-flex justify-content-center m-3 mb-5">Sites Web</p>
+              
+              <p class="d-flex justify-content-center mx-5">Au cours d'exercices et de projets j'ai pu coder le front-end de différents sites tels qu'un site biographique, la première page d'un site de vêtements ou encore un site sur la thématique du chocolat.</p>
+              <p class="d-flex justify-content-center mx-5">WalterOne est la reproduction à l'identique d'une maquette web. De plus, le site est responsive. PayConvert est quant à lui un projet de groupe dans lequel je me suis occupée du coté graphique visible par l'utilisateur. Le site permet de convertir des cartes prépayées en argent Paypal.</p>
+            </div>
+            <img src="Images/WalterOne.png" class="img-fluid w-500 mx-xl-5">
+          </div>
+
+        </div>
+
+        <div class="row d-flex align-items-center flex-column flex-sm-row my-5">
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-4 my-3 py-sm-5">
+            
+            <div class="bg-white d-flex justify-content-center flex-column mx-sm-5">
+              <p class="d-flex justify-content-center m-3">Application web</p>
+              <p class="d-flex justify-content-center m-5">ScanHealth est une application mobile permettant la gestion de sa nutrition et la connaissance de ce que l'on consomme grâce à un système de scan des produits.
+                L'application est codée en React nativ, les illustrations ont été réalisées sur Illustrator et l'animation sur Krita puis After Effects .</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-8 d-flex flex-column flex-lg-row police">
+            <img src="Images/Dame.svg" class="img-fluid w-300 my-2 px-3 mt-5">
+            <img src="Images/morpho.svg" class="img-fluid w-300 px-3 my-2">
+            <img src="Images/Profil.svg" class="img-fluid w-300 px-3 my-2 mb-5">
+          </div>
+
+        </div>
+
+
+
+      </div> 
+      <footer class=" col-9 col-sm-6 col-md-5 col-lg-6 col-xl-12 col-xxl-12 footer-class mt-5 p-0">
+        <img class="w-100 " src="Images/footer.png"/>
+    </footer>
+      
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script>
+  
+      document.addEventListener("DOMContentLoaded", function(){
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 60) {
+              console.log("test")
+              document.getElementById('navbartop').classList.add('fixed-top', 'navbar-collaps');
+            } else {
+              console.log("salit")
+              document.getElementById('navbartop').classList.remove('fixed-top', 'navbar-collaps');
+            } 
+        });
+      }); 
+  
+        </script>
+    </body>
 </html>

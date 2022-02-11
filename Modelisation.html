@@ -5,103 +5,154 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link href="styleV.2.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
         <title>GRAPHIC DESIGN PORTFOLIO</title>
     </head>
 
     <body>
-        <header>
-            <div class="navbar-left">
-              
-              <div class="logo">
-                <img src="Images/logo.svg" alt="logo" />
-                <span>Elisa Braun</span>
-              </div>
-      
-              <div class="nav-text">
-                <div class="bug1-regled">
-                  <a href="index.html">Accueil</a>
-                </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav" id="navbartop">
+        <div class="container-fluid mx-sm-5">
+          <a class="navbar-brand d-flex align-items-center pe-sm-5" href="#">
+            <img src="Images/logo.svg" alt="logo" width="70" height="70" class="d-inline-block align-text-top">
+            <img src="Images/elisabraun.png" alt="logo name" class="w-150">
+          </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly">
+              <li class="nav-item px-5">
+                <a class="text_box nav-link active" aria-current="page" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item px-5">
+                <a class="text_box nav-link" href="index.html#about-me">À propos de moi</a>
+              </li>
+              <li class="nav-item px-5">
+                <div class="dropdown">
+                  <a class="text_box nav-link" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Créations
+                  </a>
                 
-                <div class="bug2-regled">
-                  <a href="index.html#about-me">A propos de moi</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="Web design.html">Web Design</a></li>
+                    <li><a class="dropdown-item" href="Modelisation.html">Modélisation</a></li>
+                    <li><a class="dropdown-item" href="JeuxUnity.html">Jeux Vidéo</a></li>
+                    <li><a class="dropdown-item" href="Illustration.html">Illustration</a></li>
+                  </ul>
                 </div>
-                
-                <div class="menu-deroulant">
-                  <div class="bug3-regled">
-                    <a href="">Créations</a>
-                    <div class="sous-menu">
-                      <a href="Web design.html">Web Design</a>
-                      <a href="Modelisation.html">Modélisation</a>
-                      <a href="JeuxUnity.html">Jeux</a>
-                      <a href="Illustration.html">Illustration</a>
-                    </div>
-                  </div>
-                  
-                </div>
-
-            </div>
-            </div>
-
+              </li>
+            </ul>
             <div class="navbar-right">
-                <a href="https://www.instagram.com/elix_draw/"><img src="Images/insta.png" title="Instagram" alt="insta" /></a>
-                <a href="https://www.linkedin.com/in/elisa-braun/"><img src="Images/ln.png" title="Linkedin" alt="linkedin" /></a>
-                <a href="https://github.com/Eliisou"><img src="Images/git.png" title="Github" alt="Git" /></a>
-      
-            </div>
-
-        </header>
-        <content>
-                   
-                <div class="banniere">
-                    <img src="Images/Modelisation.svg" class="img-webdesign"/>
-                </div>
-            
-            <div class="contenu-global">
-                <div class="contenu-gauche">
-                    <img src="Images/Le temple.svg" class="img-maquette"/>
-                </div>
-                <div class="contenu-droit">
-                    <img src="Images/modemusee.svg" class="img-maquettesex"/>
-                </div>
-            </div>
-
-            <div class="contenu-global bg-primaryperso pt-5">
-                <div class="contenu-gauche">
-                    <img src="Images/exomode.svg" class="img-maquettesex"/>
-                </div>
-                <div class="contenu-droit">
-                    <img src="Images/Framework-mode.svg" class="modeexo"/>
-                </div>
-            </div>
-
-            <div class="contenu-global pt-5">
-                <div class="contenu-gauche">
-                    <img src="Images/Framework-photogrammetrie.svg" class="img-maquette"/>
-                </div>
-                <div class="contenu-droit">
-                    <img src="Images/sphinx.PNG" class="img-maquettesex"/>
-                </div>
-            </div>
-            
-        
-            
-            
-        </content>
-        <footer>
-            <div class= "footer-class">
-              <img src="Images/footer.png"/>
-              <div class="text-footer">
-                <p>
-                  Merci à vous d'avoir regardé mon portfolio, celui ci a été réalisé en HTML et CSS. Il sera mis à jour à chaque nouveau projet et est amené à évoluer dans son ensemble.
-                  N'hésitez pas à aller voir mes activités sur mes réseaux. Si vous souhaitez me contacter, vous pouvez m'envoyer un mail via cette adresse: elisabraun21@gmail.com ou via mes réseaux.
-                </p>
-              </div>
-              
+              <a href="https://www.instagram.com/elix_draw/" target="_blank"><img src="Images/insta.png" title="Instagram" alt="insta" /></a>
+              <a href="https://www.linkedin.com/in/elisa-braun/" target="_blank"><img src="Images/ln.png" title="Linkedin" alt="linkedin" /></a>
+              <a href="https://github.com/Eliisou" target="_blank"><img src="Images/git.png" title="Github" alt="Git" /></a>
+    
           </div>
-            
-          </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    </body>
+          </div>
+          
+        </div>
+      </nav>
 
+      <div class="container-fluid police">
+
+        <div class="mb-10 px-0 d-flex justify-content-center align-items-center">
+          <img src="Images/Modelisation.svg"/>
+        </div>
+        
+        <div class="row d-flex align-items-center flex-column flex-sm-row my-5">
+
+          <div class="col-9 col-sm-6 col-md-6 col-lg-5 col-xl-7 col-xxl-6 my-3 my-sm-0">
+            <div class="bg-white d-flex justify-content-center flex-column mx-sm-5">
+              <p class="d-flex justify-content-center m-3 mb-5">Le Temple</p>
+              <p class="d-flex justify-content-center mx-5">Un projet scolaire consistait à proposer une 
+                exposition d’œuvres d'art moderne dans une représentation
+                du temple de Jupiter au Liban.</p>
+                <p class="d-flex justify-content-center mx-5">J'ai été cheffe de projet au sein d'un groupe de 8 
+                personnes. Chaque personne a modélisé l’œuvre de son
+                choix. Pour ma part, j'ai décidé de réaliser la sculpture 
+                "Balloon Dog" de Jeff Koons. Celle ci est visible sur l'image
+                en haut à droite.</p> 
+                <p class="d-flex justify-content-center mx-5">La modélisation a été faite sur le logiciel 3DS Max.
+                L'objet 3D a ensuite été texturisé grâce au logiciel Substance
+                Painter.</p>
+                <p class="d-flex justify-content-center mx-5">Une fois les modélisations terminées, une partie du
+                groupe s'est occupée de l' implémentation des œuvres ainsi
+                que de la programmation dans le but d'avoir la possibilité de
+                se déplacer pour visiter le temple.</p>         
+                <p class="d-flex justify-content-center mx-5 mb-5">En amont, j'ai eu la tâche de produire un cahier des
+                charges, d'organiser des réunions et de vérifier que 
+                chaque personne était dans les temps vis à vis de leurs 
+                tâches.</p>         
+                           
+                          
+            </div>
+          </div>
+
+          <div class="col-9 col-sm-6 col-md-5 col-lg-6 col-xl-4 col-xxl-5 police">
+            <img src="Images/modemusee.svg" class="img-fluid">
+          </div>
+
+        </div>
+
+        <div class="row d-flex align-items-center flex-column flex-sm-row bg-salmon my-5">
+
+          <div class="col-9 col-sm-6 col-md-6 col-lg-5 col-xl-7 col-xxl-6 my-3 my-sm-0">
+            <img src="Images/exomode.svg" class="img-fluid">
+          </div>
+
+          <div class="col-9 col-sm-6 col-md-5 col-lg-6 col-xl-4 col-xxl-5 police">
+            <div class="bg-white d-flex justify-content-center flex-column mx-sm-5">
+              <p class="d-flex justify-content-center m-3">Modélisations</p>
+              <p class="d-flex justify-content-center m-5">Au cours de l'année 2021, j'ai modélisé un mannequin de couturière, un requin, une aire de jeux et un papillon.
+                Ces modélisations m'ont permis d'approfondir mes connaissances sur le logiciel 3DS Max. En effet, j'ai pu m'exercer sur les différentes façons de créer ce que l'on souhaite.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row d-flex align-items-center flex-column flex-sm-row my-5">
+
+          <div class="col-9 col-sm-6 col-md-6 col-lg-5 col-xl-7 col-xxl-6 m-3 my-sm-0 ">
+            <img src="Images/sphinx.PNG" class="img-fluid w-700">
+          </div>
+
+          <div class="col-9 col-sm-6 col-md-5 col-lg-6 col-xl-4 col-xxl-5 police">
+            <div class="bg-white d-flex justify-content-center flex-column mx-sm-5">
+              <p class="d-flex justify-content-center m-3 mb-5">Le Sphinx</p>
+              
+              <p class="d-flex justify-content-center mx-5">Le sphinx en image a été crée grâce à la photogrammétrie. Les étapes de sa construction sont les suivantes :</p> 
+              <p class="d-flex justify-content-center mx-5"> 1) J'ai pris des photos d'une petite sculpture placée sur une table couverte d'un drap vert.</p>
+              <p class="d-flex justify-content-center mx-5"> 2) Après avoir fait un rushage, j'ai retravaillé les photos sur After Effects afin de couvrir les imperfections pour ne pas avoir de
+                trous dans l'objet par la suite ou au contraire des parties qui se modéliseraient en trop à cause des ombres de la statue sur le fond vert.</p>
+              <p class="d-flex justify-content-center mx-5 mb-5"> 3)Une fois cela fait, j'ai utilisé la technique de la photogrammétrie à l'aide du logiciel 3DF Zephyr. Il m'a permis de reconstituer un nuage de points à
+                partir des photos pour ensuite obtenir un maillage texturé.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div> 
+      <footer class=" col-9 col-sm-6 col-md-5 col-lg-6 col-xl-12 col-xxl-12 footer-class mt-5 p-0">
+        <img class="w-100 " src="Images/footer.png"/>
+    </footer>
+    
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script>
+  
+      document.addEventListener("DOMContentLoaded", function(){
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 60) {
+              console.log("test")
+              document.getElementById('navbartop').classList.add('fixed-top', 'navbar-collaps');
+            } else {
+              console.log("salit")
+              document.getElementById('navbartop').classList.remove('fixed-top', 'navbar-collaps');
+            } 
+        });
+      }); 
+  
+        </script>
+    </body>
 </html>

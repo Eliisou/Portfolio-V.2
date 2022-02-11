@@ -5,106 +5,172 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link href="styleV.2.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
         <title>GRAPHIC DESIGN PORTFOLIO</title>
     </head>
 
     <body>
-        <header>
-            <div class="navbar-left">
-              
-              <div class="logo">
-                <img src="Images/logo.svg" alt="logo" />
-                <span>Elisa Braun</span>
-              </div>
-      
-              <div class="nav-text">
-                <div class="bug1-regled">
-                  <a href="index.html">Accueil</a>
-                </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav" id="navbartop">
+        <div class="container-fluid mx-sm-5">
+          <a class="navbar-brand d-flex align-items-center pe-sm-5" href="#">
+            <img src="Images/logo.svg" alt="logo" width="70" height="70" class="d-inline-block align-text-top">
+            <img src="Images/elisabraun.png" alt="logo name" class="w-150">
+          </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly">
+              <li class="nav-item px-5">
+                <a class="text_box nav-link active" aria-current="page" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item px-5">
+                <a class="text_box nav-link" href="index.html#about-me">À propos de moi</a>
+              </li>
+              <li class="nav-item px-5">
+                <div class="dropdown">
+                  <a class="text_box nav-link" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Créations
+                  </a>
                 
-                <div class="bug2-regled">
-                  <a href="index.html#about-me">A propos de moi</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="Web design.html">Web Design</a></li>
+                    <li><a class="dropdown-item" href="Modelisation.html">Modélisation</a></li>
+                    <li><a class="dropdown-item" href="JeuxUnity.html">Jeux Vidéo</a></li>
+                    <li><a class="dropdown-item" href="Illustration.html">Illustration</a></li>
+                  </ul>
                 </div>
-                
-                <div class="menu-deroulant">
-                  <div class="bug3-regled">
-                    <a href="">Créations</a>
-                    <div class="sous-menu">
-                      <a href="Web design.html">Web Design</a>
-                      <a href="Modelisation.html">Modélisation</a>
-                      <a href="JeuxUnity.html">Jeux</a>
-                      <a href="Illustration.html">Illustration</a>
-                    </div>
-                  </div>
-                  
-                </div>
-
-            </div>
-            </div>
-
+              </li>
+            </ul>
             <div class="navbar-right">
-                <a href="https://www.instagram.com/elix_draw/"><img src="Images/insta.png" title="Instagram" alt="insta" /></a>
-                <a href="https://www.linkedin.com/in/elisa-braun/"><img src="Images/ln.png" title="Linkedin" alt="linkedin" /></a>
-                <a href="https://github.com/Eliisou"><img src="Images/git.png" title="Github" alt="Git" /></a>
-      
-            </div>
-
-        </header>
-        <content>
-            
-
-                <div class="banniere">
-                    <img src="Images/JeuxUnity.svg" class="img-webdesign"/>
-                </div>
-            
-            <div class="contenu-global">
-                <div class="contenu-gauche">
-                    <img src="Images/worldofcrystals.svg" class="WOC"/>
-                </div>
-                <div class="contenu-droit">
-                    <img src="Images/World of crystals.svg" class="img-maquettesex"/>
-                </div>
-            </div>
-
-            <div class="contenu-global bg-primaryperso pt-5">
-                <div class="contenu-gauche">
-                    <img src="Images/Extasia.svg" class="img-maquettesex"/>
-                </div>
-                <div class="contenu-droit">
-                    <img src="Images/Framework-extasia.svg" class="img-maquette"/>
-                </div>
-            </div>
-
-            <div class="contenu-global pt-5">
-                <div class="contenu-gauche">
-                    <img src="Images/Abyss-framework.svg" class="Abyss-sheet"/>
-                </div>
-                <div class="contenu-droit">
-                    <img src="Images/Abyss.svg" class="Abyss"/>
-                    <img src="Images/abyssaffiche.svg" class="Abyss"/>
-                    <img src="Images/persoAbyss.svg" class="Abyss"/>
-                </div>
-            </div>
-            
-        
-            
-            
-        </content>
-        <footer>
-            <div class= "footer-class">
-              <img src="Images/footer.png"/>
-              <div class="text-footer">
-                <p>
-                  Merci à vous d'avoir regardé mon portfolio, celui ci a été réalisé en HTML et CSS. Il sera mis à jour à chaque nouveau projet et est amené à évoluer dans son ensemble.
-                  N'hésitez pas à aller voir mes activités sur mes réseaux. Si vous souhaitez me contacter, vous pouvez m'envoyer un mail via cette adresse: elisabraun21@gmail.com ou via mes réseaux.
-                </p>
-              </div>
-              
+              <a href="https://www.instagram.com/elix_draw/" target="_blank"><img src="Images/insta.png" title="Instagram" alt="insta" /></a>
+              <a href="https://www.linkedin.com/in/elisa-braun/" target="_blank"><img src="Images/ln.png" title="Linkedin" alt="linkedin" /></a>
+              <a href="https://github.com/Eliisou" target="_blank"><img src="Images/git.png" title="Github" alt="Git" /></a>
+    
           </div>
-            
-          </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    </body>
+          </div>
+          
+        </div>
+      </nav>
 
+      <div class="container-fluid police">
+
+        <div class="mb-10 px-0 d-flex justify-content-center align-items-center">
+          <img src="Images/JeuxUnity.svg"/>
+        </div>  
+
+        <div class="row d-flex align-items-center flex-column flex-md-row my-5">
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-7 col-xxl-6 my-3 my-sm-0">
+            <div class="bg-white d-flex justify-content-center flex-column mx-md-5">
+              <p class="d-flex justify-content-center m-3">World of Crystals</p>
+              <p class="d-flex justify-content-center m-5">J'ai réalisé les dessins en 2D d'un petit jeu codé en C++ sur Visual Studio. J'ai fait les dessins sur le logiciel Krita. Le jeu est un labyrinthe dans le style du jeu Pacman dans lequel le joueur doit récupérer des objets en évitant de se faire toucher par des monstres. Il doit ensuite atteindre un point du labyrinthe pour finir le jeu.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-5">
+            <img src="Images/World of crystals.svg" class="img-fluid my-3 w-700">
+          </div>
+
+        </div>
+
+        <div class="row d-flex align-items-center flex-column flex-md-row bg-salmon my-5">
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-6 col-xxl-6 my-3 my-sm-0">
+            <img src="Images/Extasia.svg" class="img-fluid">
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-6 col-xxl-6 police">
+            <div class="bg-white d-flex justify-content-center flex-column mx-lg-5">
+              <p class="d-flex justify-content-center m-3 mb-5">Extasia</p>
+              <p class="d-flex justify-content-center mx-5">Extasia est un jeu très coloré codé en C#. 
+                J'ai réalisé ce jeu dans son intégralité à l'aide du moteur de jeu Unity. Le code a été fait sur Visual Studio. Les 
+                assets et UI ont été dessiné sur Krita pour être ensuite 
+                implémentés dans Unity.</p>
+                <p class="d-flex justify-content-center mx-5 mb-5">
+                Dans Extasia, le jeu au concept surprenant, on contrôle les
+                mouvements d'un personnage ayant une addiction pour les
+                drogues. Celles-ci sont représentées par des friandises. Le 
+                joueur doit dans ce jeu récupérer un maximum de bonbons
+                tout en trouvant la porte de sortie vers un autre monde. Le 
+                level design présente un environnement labyrinthique,
+                regorgant d'ennemies et de pièges en tout genre. Par cette idée,
+                je voulais mettre l'accent sur les graphismes colorés.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        
+        
+        <div class="row d-flex align-items-center flex-column flex-md-row my-5">
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-6 col-xxl-4">
+            <div class="bg-white d-flex justify-content-center flex-column mx-xl-5 mt-3">
+              <p class="d-flex justify-content-center m-3 mb-5">Abyss</p>
+              <p class="d-flex justify-content-center mx-5">Abyss est un jeu 2D en vue de 
+                dessus permettant d'aller dans 4 directions.</p>
+              <p class="d-flex justify-content-center mx-5">Le jeu raconte l'histoire d'une
+                jeune fille essayant de retrouver son ami
+                perdu. Elle doit pour cela traverser les
+                rues de Tokyo, les égouts pour enfin finir
+                par les catacombes.</p>
+              <p class="d-flex justify-content-center mx-5">Le jeu comprend ainsi 3
+                niveaux dans lesquels il faut progresser.
+                La façon de jouer est inspirée
+                du jeu Undertale avec son système
+                original de combat avec les ennemis et
+                cette vue de dessus. </p>
+              <p class="d-flex justify-content-center mx-5">Le jeu a été développé sur la
+                plateforme Unity au sein d'un groupe de
+                4 personnes. Mon travail a été de réaliser
+                l'intégralité des assets d'environnements,
+                de personnages avec leurs animations et 
+                des assets nécéssaires aux UI tandis que
+                le reste du groupe s'occupait de la
+                programmation du jeu.</p>
+              <p class="d-flex justify-content-center mx-5 mb-5">Les assets ont été dessiné sur le
+                logiciel Krita puis je les ai répartie sur
+                Affinity Designer afin de créer les tilemaps</p>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-7 d-flex align-items-center flex-column ">
+            <div class="d-flex align-items-center flex-row">
+              <img src="Images/abyssaffiche.svg" class="img-fluid w-500 mb-4">
+            </div>
+
+            <div class="d-flex align-items-center flex-column flex-xxl-row ">
+              <img src="Images/persoAbyss.svg" class="img-fluid w-500">
+              <img src="Images/Abyss.svg" class="img-fluid w-500">
+            </div>
+
+            
+          </div>
+             
+        </div>
+        </div>
+        <footer class=" col-9 col-sm-6 col-md-5 col-lg-6 col-xl-12 col-xxl-12 footer-class mt-5 p-0">
+          <img class="w-100 " src="Images/footer.png"/>
+      </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script>
+  
+      document.addEventListener("DOMContentLoaded", function(){
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 60) {
+              console.log("test")
+              document.getElementById('navbartop').classList.add('fixed-top', 'navbar-collaps');
+            } else {
+              console.log("salit")
+              document.getElementById('navbartop').classList.remove('fixed-top', 'navbar-collaps');
+            } 
+        });
+      }); 
+  
+        </script>
+    </body>
 </html>
